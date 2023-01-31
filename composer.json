@@ -1,0 +1,18 @@
+{
+    "name": "projeto/mvc",
+    "require": {
+        "php": ">= 7.0",
+        "voku/anti-xss": "^4.1"
+    },
+    "authors": [
+        {
+            "name": "José Luis Santos",
+            "email": "contato.joseluissantos@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}
